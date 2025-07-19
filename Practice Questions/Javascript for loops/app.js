@@ -19,13 +19,23 @@
 //using arrays in for loop
 
 
-document.write("<h1>printing all the elements of array using for loop </h1>")
+// document.write("<h1>printing all the elements of array using for loop </h1>")
 
 
-var arr1 = [1,2,3,4,5,6,7,8,9,10];
+// var arr1 = [1,2,3,4,5,6,7,8,9,10];
 
-for(var i = 0; i < arr1.length ; i++){
+// for(var i = 0; i < arr1.length ; i++){
 
-    document.write(arr1[i] + "  ");
+//     document.write(arr1[i] + "  ");
 
+// }
+
+
+//printing numbers using nested for loops
+
+for (i = 1; i <= 100; i += 10 ){
+    for (j = i ;j < i+10; j++ ){
+        document.write(j + " " );
+    }
+    document.write("</br>");
 }
