@@ -1,16 +1,31 @@
 // Making a table with taking inputs from user
 
 
-var table = prompt("Which table you want to see in browser");
-var multiple = prompt("Tell me the starting number of the table");
-var end = prompt("Now tell me the ending number");
+// var table = prompt("Which table you want to see in browser");
+// var multiple = prompt("Tell me the starting number of the table");
+// var end = prompt("Now tell me the ending number");
 
 
 
-for(multiple; multiple<=end ; multiple++){
-    var result = table * multiple;
+// for(multiple; multiple<=end ; multiple++){
+//     var result = table * multiple;
 
-document.write(table+" "+ "x"+  " " +multiple+ " " + "=" + " "+ result +"</br>" );
+// document.write(table+" "+ "x"+  " " +multiple+ " " + "=" + " "+ result +"</br>" );
 
+
+// }
+
+
+//using arrays in for loop
+
+
+document.write("<h1>printing all the elements of array using for loop </h1>")
+
+
+var arr1 = [1,2,3,4,5,6,7,8,9,10];
+
+for(var i = 0; i < arr1.length ; i++){
+
+    document.write(arr1[i] + "  ");
 
 }
