@@ -9,10 +9,10 @@
 
 // concatenation
 
-var a = 1;
-var b = "2";
-result = a+b;
-console.log(typeof(result));
+// var a = 1;
+// var b = "2";
+// result = a+b;
+// console.log(typeof(result));
 
 
 // cleanest cities
@@ -63,5 +63,125 @@ console.log(typeof(result));
 
 // }
 
+
+
+
+// let arr = ["me","i","you"];
+
+// for(var i = 0; i < arr.length; i++)
+// {
+//     console.log("value of i: "+i);
+// }
+
+// console.log("length of array:", i);
+
+
+
+
+// for(i = 1; i<=100; i++){
+
+// for(j=1; j<=3; j++){
+//    document.write(j)
+// }
+// document.write("</br>")
+
+// }
+
+
+// for(i = 1; i <= 10; i++){
+//     for(j=1; j<=i; j++){
+//         document.write(j);
+//     }
+
+//     document.write("</br>")
+// }
+
+// for(i=1; i<=100; i+=10){
+//     for(j=i; j<=i+9; j++){
+
+//         document.write(j);
+//     }
+
+//     document.write("</br>")
+// }
+
+
+// creating an object
+
+// let profile =  {
+
+//     username : "Faizan",
+//     followers: 250,
+//     following: 100
+// }
+
+// console.log(typeof profile ["username"]);
+
+
+// checking palindrome
+
+
+// function Palindrome(){
+
+//     var userinput = document.getElementById("userInput").value
+// var userinput1 = userinput.toLowerCase();
+//      var reverse = "";
+
+//     for(var i = userinput1.length-1; i>=0; i--){
+
+//         reverse = reverse + userinput1[i];
+//     }
+//     console.log(reverse);
+
+//     if(reverse === userinput1){
+//         console.log("This is a Palindrome")
+//     }
+
+//     else{
+
+//         console.log("Not a palindrome")
+//     }
+    
+
+
+// }
+
+// var flag = false;
+// var arr = ["Karachi","Lahore","Faisalabad"];
+
+// var toCheck = prompt("Enter the city :")
+
+// var first = toCheck.slice(0,1).toUpperCase();
+
+// var remaining = toCheck.slice(1).toLowerCase();
+
+// var concat = first + remaining;
+
+
+// for(var i = 0; i < arr.length; i++){
+
+//     if(concat == arr[i]){
+//         console.log("found");
+// flag = true;
+//         break;
+//     }
+    
+// }
+
+// if(flag == false){
+//     console.log("not found")
+// }
+
+
+// var toCheck = prompt("Enter the string");
+
+// var first = toCheck.slice(0,1)
+
+// first = first.toUpperCase();
+
+// var remaining  = toCheck.slice(1);
+// remaining = remaining.toLowerCase();
+
+// console.log(first)
 
 
