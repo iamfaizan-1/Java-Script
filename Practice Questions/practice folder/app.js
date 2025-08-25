@@ -185,3 +185,65 @@
 // console.log(first)
 
 
+// for of loop
+
+// let cities = ['Karachi','Hyderabad','Sukkhur','Larkana','Multan','Faislabad'];
+
+// for (const city of cities) {
+
+//     console.log(city.toUpperCase())
+    
+// }
+
+
+// let arr = [85,97,44,37,76,60];
+
+
+// let sum = 0;
+
+// for(var i = 0; i< arr.length; i++){
+
+//     sum += arr[i];
+// }
+
+// let Average = sum/arr.length;
+
+// console.log(`${Average}`);
+
+
+
+
+
+// let items = [250,645,300,900,50];
+
+// for(const i of items){
+
+//     let discount = items[i]*0.1;
+
+//     items[i] -= discount;
+    
+//     console.log(items[i])
+
+// }
+
+
+
+// finding discount
+
+
+// let items = [250,645,300,900,50];
+
+// for(var i =0 ; i<items.length; i++)
+// {
+
+//     console.log("before "+ items[i]);
+// var discount = items[i]/10;
+// items[i] = items[i] - discount;
+
+// console.log("after"+items[i]);
+
+
+// }
+
+
+// console.log(items); 
