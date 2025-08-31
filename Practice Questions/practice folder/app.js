@@ -247,3 +247,49 @@
 
 
 // console.log(items); 
+
+
+
+// let arr = ['i' , 'love', 'you'];
+
+// let arr2 = ['do', 'you', 'love','me'];
+
+// console.log(arr.concat(arr2))
+
+// console.log(arr)
+
+
+// let arr = [1, 3, 5, 7, 9];
+
+// console.log(arr.toString())
+
+// console.log(typeof(arr))
+
+
+// splice method
+
+// let arr = [1,2,5,7,9]
+
+// let arr2 = arr.splice(2)
+
+
+
+// practice question
+
+// let arr = ["Bloomberg","Microsoft", "Uber","Google","IBM","Netflix"];
+
+// arr.shift();
+
+// console.log(arr)
+
+// arr.splice(1,1,"Ola")
+
+// console.log(arr)
+
+// arr.push("Amazon");
+
+// console.log(arr)
+
+
+
+
