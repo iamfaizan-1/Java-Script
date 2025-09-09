@@ -67,24 +67,60 @@
 // console.log(student1)
 
 
-function Vowel(name){
+// function Vowel(name){
 
-    name = name.toLowerCase()
-var count = 0;
+//     name = name.toLowerCase()
+// var count = 0;
 
-    for(i=0; i<= name.length-1; i++){
+//     for(i=0; i<= name.length-1; i++){
 
-        if(name[i] === "a" || name[i] === "e" || name[i] === "i" || name[i] === "o" || name[i] === "u"  ){
+//         if(name[i] === "a" || name[i] === "e" || name[i] === "i" || name[i] === "o" || name[i] === "u"  ){
 
-            count++;
+//             count++;
            
 
-        }
-    }
+//         }
+//     }
 
-    console.log("The word has"+ " "+count + " " +"vowel sounds")
+//     console.log("The word has"+ " "+count + " " +"vowel sounds")
 
-}
+// }
 
 
-Vowel("FAIZAN")
+// Vowel("FAIZAN")
+
+
+// function sum(a,b){
+
+//     var Sum = a+b;
+//    console.log(Sum)
+// }
+
+
+
+
+// var day = "fri";
+
+// switch(day){
+
+//     case "sat":
+//         console.log("Whoopee");
+//         break;
+
+
+//         case "sun":
+
+//         console.log("whoope");
+//         break;
+
+//         case "fri":
+//             console.log("TGIF");
+
+//             break;
+
+//             default:
+//                 console.log("Shoot me now");
+                
+            
+
+// }

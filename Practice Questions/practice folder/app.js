@@ -327,6 +327,36 @@
 // console.log(now)
 
 
+// get month method,
+
+// var date = new Date();
+// var Months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+// var index = date.getMonth();
+
+// var thisMonth = Months[index];
+
+// console.log(thisMonth)
+
+// function tellTime(){
+
+//     var date = new Date();
+
+//     var hours  = date.getHours();
+//     var minutes = date.getMinutes();
+//     var seconds = date.getSeconds();
+
+//     console.log("Current Time: "+ hours + ":"+minutes+":"+seconds);
+    
+// }
+
+// tellTime()
+
+
+
+
+
+
 
 
 
