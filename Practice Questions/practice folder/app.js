@@ -290,6 +290,43 @@
 
 // console.log(arr)
 
+// var age = prompt("Enter your age");
+
+// var result = parseInt(age)+1;
+// console.log(result)
+
+// var num = 4;
+
+// console.log(num.toString())
+
+
+// var num = prompt("Enter number");
+
+// if(num.charAt(num.length-1) === "5" ){
+
+//     num = num.slice(0,num.length-1) + "6"
+    
+// }
+
+// var result = Number(num);
+
+// result = result.toFixed(2)
+
+// console.log(result)
+
+// var dayNames = "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday";
+
+// var dayNames1 = dayNames.split(",");
+
+// var date = new Date();
+
+// var today = date.getDay();
+
+// var now = dayNames1[today];
+
+// console.log(now)
+
+
 
 
 
