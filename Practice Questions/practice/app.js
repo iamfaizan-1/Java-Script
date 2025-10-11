@@ -93,10 +93,57 @@
 // console.log(typeof(num));
 
 
-var num = 12.34555;
+// var num = 12.34555;
 
-num = num.toFixed(2)
-console.log(num);
+// num = num.toFixed(2)
+// console.log(num);
 
-console.log(typeof(num));
+// console.log(typeof(num));
 
+
+
+// function style(){
+
+//     input = document.getElementById("input");
+
+//     input.style.backgroundColor = "blue";
+// }
+
+
+// function start(){
+
+// para = document.getElementById("para")
+// para.innerText = "My name is faizan, who are you"
+
+
+
+// }
+
+// function hide(){
+
+// image = document.getElementById("img")
+
+// if(image.style.display == "block"){
+
+//     image.className = "hide";
+
+// }
+
+// else{
+//     image.className = "show"
+// }
+
+
+// }
+
+
+// var div = document.getElementById("division");
+
+// var para = div.getElementsByTagName("p");
+
+// para.style.color = "yellow"
+
+
+var d = document.getElementById("ny");
+ var p = d.childNodes[1];
+ var contents = p.innerHTML;
