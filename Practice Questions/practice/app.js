@@ -144,6 +144,23 @@
 // para.style.color = "yellow"
 
 
-var d = document.getElementById("ny");
- var p = d.childNodes[1];
- var contents = p.innerHTML;
+// var d = document.getElementById("ny");
+//  var p = d.childNodes[1];
+//     var contents = p.innerHTML;
+
+
+function tohide1(){
+
+
+var hide = document.querySelector("hide")
+
+hide.style.display = "block"
+
+// console.log("this is function")
+
+}
+
+function show1(){
+    var hide = document.querySelector("hide")
+    hide.style.display = "none"
+}
