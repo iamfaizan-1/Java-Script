@@ -13,10 +13,16 @@
 
 // Event Listner
 
-let btn1 = document.querySelector("#btn1")
+// let btn1 = document.querySelector("#btn1")
 
-btn1.addEventListener("click",function(){
+// // btn1.addEventListener("click",function(){
 
-    console.log("This is a button");
-    console.log("click event is triggered")
-})
+// //     console.log("This is a button");
+// //     console.log("click event is triggered")
+// // })
+
+// btn1.addEventListener("click",function(){
+
+//     console.log("clicked")
+
+// })
