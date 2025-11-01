@@ -124,3 +124,50 @@
             
 
 // }
+
+
+
+// arrow function
+
+
+// const arrowSum = (a,b) => {
+
+//     sum = a+b;
+//     return sum;
+// }
+
+// let result = arrowSum(5,6)
+
+// console.log(result)
+
+// const mul = () =>{
+//     var a = 5;
+//     var b = 6;
+
+//     result = a*b;
+//     console.log(result)
+// }
+
+// mul();
+
+
+const vowel = (fullname)=>{
+
+var count = 0;
+
+for(var char of fullname){
+
+if(char === "a" || char === "e" || char === "i" || char === "o" ||char === "u"){
+
+    count++;
+}
+
+}
+
+return count;
+
+
+}
+
+let result = vowel("faizan");
+console.log(result)
