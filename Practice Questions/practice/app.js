@@ -164,3 +164,83 @@ function show1(){
     var hide = document.querySelector("hide")
     hide.style.display = "none"
 }
+
+
+
+// const student = {
+
+//     fullName: "Muhammad Faizan",
+//     age: 20,
+//     class: "second year"
+
+// }
+
+// // console.log(student["fullName"])
+
+// const student2 = {...student}
+
+// // console.log(student2)
+
+// // student.hobby = "football"
+// // console.log(student)
+// // console.log(student2)
+
+// student2.fullName = "Faraz";
+
+// console.log("student1 =>",student);
+// console.log("student2 =>",student2)
+
+
+// let employee = {
+//     eid: "E102",
+//     ename: "Jack",
+//     eaddress: "New York",
+//     salary: 50000
+// };
+
+// console.log("Employee=> ", employee);
+
+// // Shallow copy
+// let newEmployee = { ...employee };    
+// console.log("New Employee=> ", newEmployee);
+
+// console.log("---------After modification----------");
+// newEmployee.ename = "Beck";
+
+// console.log("Employee=> ", employee);        
+// console.log("New Employee=> ", newEmployee);
+
+
+const student1={
+    age:20,
+    name:"Faizan"
+}
+
+const student2 = {...student1}
+
+
+// delete student1.age
+// // const student2 = student1;
+
+// console.log(student1)
+// console.log(student2)
+
+// const keys = Object.keys(student1)
+// console.log(keys)
+
+// const values = Object.values(student1)
+// console.log(values)
+
+// for(key in student1){
+//     console.log(key,student1[key])
+// }
+
+
+// const student3 = Object.assign({},student1)
+
+// console.log(student3)
+
+// Object.seal(student1)
+
+// student1.age = 21;
+// console.log(student1)
