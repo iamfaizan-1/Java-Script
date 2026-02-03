@@ -21,43 +21,43 @@
 // } while(i<0)
 
 
-// function togglebtn(){
+function togglebtn(){
 
-// button = document.getElementById("btn");
+button = document.getElementById("btn");
+
+image = document.getElementById("image");
+
+if(button.innerText == "bulb on"){
+    image.src = "./assets/bulb on.jpg";
+button.innerText = "bulb off";
+
+
+
+}
+else{
+    image.src = "./assets/bulb off.jpg";
+    button.innerText = "bulb on"
+}
+
+
+
+
+
+
+
+}
+
+// function toggleimage(){
 
 // image = document.getElementById("image");
-
-// if(button.innerText == "bulb on"){
-//     image.src = "./assets/bulb on.jpg";
-// button.innerText = "bulb off";
-
-
-
-// }
-// else{
-//     image.src = "./assets/bulb off.jpg";
-//     button.innerText = "bulb on"
-// }
-
-
-
-
-
-
+// image.src = "./assets/bulb on.jpg"
 
 // }
 
-function toggleimage(){
+// function bulboff(){
 
-image = document.getElementById("image");
-image.src = "./assets/bulb on.jpg"
-
-}
-
-function bulboff(){
-
-image = document.getElementById("image");
-image.src = "./assets/bulb off.jpg "
+// image = document.getElementById("image");
+// image.src = "./assets/bulb off.jpg "
 
 
-}
+// }

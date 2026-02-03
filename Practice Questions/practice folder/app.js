@@ -353,6 +353,39 @@
 // tellTime()
 
 
+var Students ={
+    fullName:"Muhammad Faizan",
+    FatherName:"Deen Muhammad",
+    Department:"Computer Science",
+    Semester:5,
+
+
+    detail: function(){
+        return this;
+    }
+
+}
+
+
+console.log(Students.detail());
+
+
+
+function GetName()
+
+{
+    const name = "faizan"
+
+
+    return this;
+}
+
+console.log(GetName())
+
+
+
+
+
 
 
 
