@@ -274,5 +274,54 @@ else{
 
 
 
+// show hide function
+
+let para = document.getElementById("togglePara")
+let showBtn = document.getElementById("showBtn")
+function myEvent(){
+
+    if(para.style.display === "none"){
+        para.style.display = "block"
+showBtn.innerHTML = "show less"
+    }
+
+    else{
+
+        para.style.display = "none"
+        showBtn.innerHTML = "show more"
+    }
+}
+
+
+// function for printing factorials
+
+
+
+function factorials(n){
+
+    if(n<0){
+        let error = "factorial not exist"
+        return  error;
+    }
+
+    else if(n==0 || n==1){
+        
+        return 1;
+    }
+
+    let result = 1;
+
+    for(i=1; i<=n ; i++){
+
+        result*=i;
+    }
+
+    return result;
+
+}
+
+const result2 = factorials(4);
+console.log(result2)
+
 
 
