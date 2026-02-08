@@ -149,21 +149,21 @@
 //     var contents = p.innerHTML;
 
 
-function tohide1(){
+// function tohide1(){
 
 
-var hide = document.querySelector("hide")
+// var hide = document.querySelector("hide")
 
-hide.style.display = "block"
+// hide.style.display = "block"
 
-// console.log("this is function")
+// // console.log("this is function")
 
-}
+// }
 
-function show1(){
-    var hide = document.querySelector("hide")
-    hide.style.display = "none"
-}
+// function show1(){
+//     var hide = document.querySelector("hide")
+//     hide.style.display = "none"
+// }
 
 
 
@@ -211,12 +211,12 @@ function show1(){
 // console.log("New Employee=> ", newEmployee);
 
 
-const student1={
-    age:20,
-    name:"Faizan"
-}
+// const student1={
+//     age:20,
+//     name:"Faizan"
+// }
 
-const student2 = {...student1}
+// const student2 = {...student1}
 
 
 // delete student1.age
@@ -244,3 +244,35 @@ const student2 = {...student1}
 
 // student1.age = 21;
 // console.log(student1)
+
+
+// function changeImg(){
+
+//
+
+
+// }
+const button = document.getElementById("myBtn");
+const image = document.getElementById("myImg")
+
+
+function changeImg(){
+
+     if(button.innerHTML == "Bulb is off"){
+
+    button.innerHTML = "Bulb is on"
+
+image.src = "./assets/Bulb on.jpg"
+image.style.transition = "all 0.5s ease"
+}
+
+else{
+    button.innerHTML = "Bulb is off"
+    image.src = "./assets/Bulb off.jpg"
+}
+}
+
+
+
+
+
