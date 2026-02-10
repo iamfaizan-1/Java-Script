@@ -325,3 +325,89 @@ console.log(result2)
 
 
 
+
+
+// to do list
+
+
+const addButton = document.querySelector(".add-btn")
+const inputField = document.querySelector(".input-field")
+const unorderedList = document.querySelector(".unordered-list")
+addButton.addEventListener("click",Add)
+
+
+function Add(){
+ 
+if(inputField.value === ""){
+    alert("error")
+}
+
+else{
+
+    unorderedList.innerHTML+= `
+    
+    <li id='myList' >
+   <input  class="input-field1" value='${inputField.value}' disabled type="text">
+    <button class="del-btn" onclick='DeleteTodo(event)' >Delete</button>
+     <button class="edit-btn" onclick='EditTodo(event)' >Edit</button>
+    
+    
+    </li>
+ 
+    `
+inputField.value = ""
+
+}
+  
+    
+}
+
+
+function DeleteTodo(event){
+
+event.target.parentElement.remove()
+
+
+}
+
+
+// function EditTodo(event){
+
+//     event.target.parentElement.childNodes[1].disabled = false;
+
+//     event.target.innerHTML = "Update"
+
+//     let update = event.target;
+//     update.setAttribute("onclick","updateTodo(event)")
+
+
+// }
+
+// function updateTodo(event){
+//     event.target.parentElement.childNodes[1].disabled = true;
+
+//     event.target.innerHTML="Edit"
+// let update = event.target;
+//  update.setAttribute("onclick","EditTodo(event)")
+// }
+
+
+
+function EditTodo(event){
+
+ 
+event.target.parentElement.childNodes[1].disabled = false;
+
+event.target.innerHTML = "Update"
+ let update = event.target;
+   update.setAttribute("onclick","UpdateTodo(event)")
+}
+
+function UpdateTodo(event){
+
+event.target.parentElement.childNodes[1].disabled = true;
+
+event.target.innerHTML = "Edit"
+let update = event.target;
+ update.setAttribute("onclick","EditTodo(event)")
+}
