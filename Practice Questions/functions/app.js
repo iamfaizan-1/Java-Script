@@ -151,23 +151,41 @@
 // mul();
 
 
-const vowel = (fullname)=>{
+// const vowel = (fullname)=>{
 
-var count = 0;
+// var count = 0;
 
-for(var char of fullname){
+// for(var char of fullname){
 
-if(char === "a" || char === "e" || char === "i" || char === "o" ||char === "u"){
+// if(char === "a" || char === "e" || char === "i" || char === "o" ||char === "u"){
 
-    count++;
+//     count++;
+// }
+
+// }
+
+// return count;
+
+
+// }
+
+// let result = vowel("faizan");
+// console.log(result)
+
+function ValidatePin(pin){
+
+    if(/^\d{4}$/.test(pin)){
+        return 'valid pin'
+    }
+
+    else{
+        return 'invalid pin'
+    }
+
+
 }
 
-}
+let myPin = 1234;
 
-return count;
-
-
-}
-
-let result = vowel("faizan");
+let result = ValidatePin(myPin)
 console.log(result)
