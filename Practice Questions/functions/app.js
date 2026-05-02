@@ -172,6 +172,26 @@
 // let result = vowel("faizan");
 // console.log(result)
 
+// function ValidatePin(pin){
+
+//     if(/^\d{4}$/.test(pin)){
+//         return 'valid pin'
+//     }
+
+//     else{
+//         return 'invalid pin'
+//     }
+
+
+// }
+
+// let myPin = 1234;
+
+// let result = ValidatePin(myPin)
+// console.log(result)
+
+
+
 function ValidatePin(pin){
 
     if(/^\d{4}$/.test(pin)){
@@ -182,10 +202,8 @@ function ValidatePin(pin){
         return 'invalid pin'
     }
 
-
 }
 
 let myPin = 1234;
-
-let result = ValidatePin(myPin)
+const result = ValidatePin(myPin)
 console.log(result)
