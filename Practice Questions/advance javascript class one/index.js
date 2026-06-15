@@ -62,3 +62,44 @@ let fruits = ["apple", "banana", "orange"]
 let copyFruits = [...fruits]
 
 console.log(copyFruits)
+
+
+
+// Rest and spread operators revision
+
+const RestOperator = (...args)=>{
+  let sum = 0;
+    for(let i in args){
+      
+
+        sum += args[i]
+    }
+
+    return sum
+
+}
+
+const result = RestOperator(30,40,50,60)
+console.log(result)
+
+
+// spread operator concatenating array
+
+const array1 = [24,34,44]
+const array2 = [54,64,74]
+
+const array3 = [...array1,...array2]
+
+console.log("concatenate array with the help of spread operator",array3)
+
+// copying array
+
+let myarray1 = ["fruits","vegies"]
+let myarray2 = [...myarray1]
+
+myarray2.push("orange")
+console.log("array 1 ==>",myarray1)
+console.log("array 2 ==>",myarray2)
+
+
+
