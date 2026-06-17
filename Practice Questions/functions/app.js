@@ -204,6 +204,9 @@ function ValidatePin(pin){
 
 }
 
+
+
+
 let myPin = 1234;
 const result = ValidatePin(myPin)
 console.log(result)
